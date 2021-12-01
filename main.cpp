@@ -2,6 +2,10 @@
 
 using namespace std;
 
+template <typename T>
+T half(T);
+int half(int);
+
 int main()
 {
     cout << "Hello world!" << endl;
